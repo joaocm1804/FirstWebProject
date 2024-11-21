@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+.aba_principal{
+    background-color: #92BEC8;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+body {
+    background-color: #77AEBB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+h1 {
+    text-align: justify;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+
+p {
+    text-align: justify;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+li {
+    text-align: justify;
+}
+.caixa_abas{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    gap: 2px;
+}
+.abas{
+    font-size: 25px;
+    background-color: #AECFD6;
+    padding: 5px;
+    margin: auto;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.texto_bolha{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #92BEC8;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+}
+
+.texto_bolha2{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #92BEC8;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 30px;
+    width: 800px;
+}
+
+.foto{
+    display: flex;
+    margin: auto;
+    width: 370px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+img{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.abas > a{
+    color: black;
+    padding: 52px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.abas > a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0.09s;
+}
+
+.texto_hobbies{
+    background-color: #92BEC8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+.beatles > a{
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.beatles > a:hover {
+    background-image: linear-gradient(to right, red, orange, rgb(54, 219, 54), rgb(44, 160, 255));
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
+
+.daftpunk > a{
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.daftpunk > a:hover {
+    background-image: linear-gradient(to right,black, rgb(164, 140, 0), rgb(159, 159, 159));
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
+.blonded > a{
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.blonded > a:hover {
+    background-color: rgb(255, 149, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
+.pinkfloyd > a{
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.pinkfloyd > a:hover {
+    background-image: linear-gradient(to right, black,black,black,red, orange, yellow,black,black, green,lightblue,blue,purple);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
+.macmiller > a{
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.macmiller > a:hover {
+    background-color: rgb(255, 176, 189);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
+
+.links_externos > a{
+    margin: auto;
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.links_externos > a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
+
+.cin > a{
+    margin: auto;
+    color: black;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.cin > a:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 0s;
+}
