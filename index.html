@@ -10,16 +10,15 @@
     <div class="aba_principal">
         <h1>João Carlos Mendes</h1>
         <br>
+        <p id="saudacao"></p>
         <div class="caixa_abas">
             <h2 class="abas"><a href="quemsou.html">Quem sou eu?</a></h2>
             <br>
             <h2 class="abas"><a href="educacao.html">Vida Acadêmica</a></h2>
             <br>
             <h2 class="abas"><a href="hobbies.html">Hobbies</a></h2>
-            
         </div>
         <br>
-
     </div>
     <br>
     <br>
@@ -28,5 +27,25 @@
         <br>
         <img class="foto" src="foto_png (1).png" alt="minha foto">
     </main>
+
+    <script>
+        function saudacao() {
+            var data = new Date();
+            var hora = data.getHours();
+            var mensagem;
+
+            if (hora >= 0 && hora < 12) {
+                mensagem = "Bom dia!";
+            } else if (hora >= 12 && hora < 18) {
+                mensagem = "Boa tarde!";
+            } else {
+                mensagem = "Boa noite!";
+            }
+
+            document.getElementById("saudacao").innerHTML = mensagem;
+        }
+
+        window.onload = saudacao;
+    </script>
 </body>
 </html>
